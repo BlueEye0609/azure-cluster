@@ -1,0 +1,9 @@
+gohttpserver:
+  replicaCount: 3
+
+  ingress:
+  hosts:
+  - host: gohttpserver2.cloudnative.test
+    paths:
+    - path: /
+      pathType: Prefix
