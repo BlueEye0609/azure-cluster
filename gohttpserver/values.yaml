@@ -5,5 +5,5 @@ gohttpserver:
   hosts:
   - host: gohttpserver2.cloudnative.test
     paths:
-    - path: /
-      pathType: Prefix
+      - path: /
+        pathType: Prefix
